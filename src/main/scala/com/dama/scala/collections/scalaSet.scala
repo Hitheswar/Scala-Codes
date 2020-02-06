@@ -21,7 +21,7 @@ object scalaSet {
 
     games.foreach((game:String)=>println("game "+game))  //using foreach loop
 
-    var numbers: SortedSet[Int] = SortedSet(5,8,1,2,9,6,4,7,2)
+    var numbers: SortedSet[Int] = SortedSet(5,8,1,2,9,6,4,7,2,2)
     numbers.foreach((element:Int)=> print(element+", ")) //returns a Set after sorting elements
 
 
