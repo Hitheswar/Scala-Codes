@@ -10,7 +10,10 @@ object scalaMap {
     var emptyMap:Map[String,String] = Map.empty[String,String]
     println(map)
     println(map2)
-    println("Empty Map: "+emptyMap
+    println("Empty Map: "+emptyMap)
+
+    val map1:List[Int]  = List(1,2,3,4)
+    println(map1.map(x=>x*x))
 
   }
 
