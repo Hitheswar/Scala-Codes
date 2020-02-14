@@ -25,7 +25,7 @@ object reverseString {
     }
     else {
       println(str.substring(1,len))
-      val result = recursive(str.substring(1,len))+ str.charAt(0)
+      val result = recursive(str.substring(1,len)) + str.charAt(0)
       println("result "+result)
       println("hello")
       result
